@@ -2,6 +2,7 @@
 Download content from youtube and then import it as local media for spotify.
 
 ---
+```
 usage: main.py [-h] [-p PLAYLIST_ID] [-u PLAYLIST_URL] [-o OUTPUT_DIR]
 
 Download music from any playlist on youtube
@@ -14,8 +15,8 @@ optional arguments:
                         url of playlist to download
   -o OUTPUT_DIR, --output-dir OUTPUT_DIR
                         output directory to download songs in
-                        
+```                        
 ---
 Dependencies:
-pip3 install google-api-python-client
-pip3 install youtube_dl
+1. pip3 install google-api-python-client
+2. pip3 install youtube_dl
